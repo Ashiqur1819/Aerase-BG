@@ -1,3 +1,4 @@
+import BgSlider from '../components/BgSlider'
 import Hero from '../components/Hero'
 import Steps from '../components/Steps'
 
@@ -6,6 +7,7 @@ function Home() {
     <div>
       <Hero />
       <Steps />
+      <BgSlider />
     </div>
   )
 }
