@@ -1,7 +1,7 @@
 import logo from './logo.png'
 import arrow_icon from './arrow_icon.svg'
 import header_img from './header_img.png'
-import remove_bg_icon from './remove_bg_icon.svg'
+import remove_bg from './remove-bg.svg'
 import upload_btn_icon from './upload_btn_icon.svg'
 import upload from './upload.svg'
 import download from './download.svg'
@@ -18,7 +18,7 @@ export const assets = {
     logo,
     arrow_icon,
     header_img,
-    remove_bg_icon,
+    remove_bg,
     upload,
     download,
     image_w_bg,
