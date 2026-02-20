@@ -1,11 +1,40 @@
-import React from 'react'
+import React from "react";
+import { assets } from "../assets/assets";
 
 function Result() {
   return (
-    <div>
-      <h1>Result</h1>
+    <div className="mx-4 my-3 lg:mx-60 mt-14 min-h-[75vh] mb-10">
+      <div className="bg-white rounded-lg px-8 py-6 drop-shadow-sm">
+        {/* --------- Image Container --------- */}
+        <div className="flex flex-col sm:grid grid-cols-2 gap-8">
+          {/* --------- Left Side --------- */}
+          <div>
+            <p className="font-semibold text-gray-600 mb-2">Original</p>
+            <img className="rounded-md border" src={assets.image_w_bg} alt="" />
+          </div>
+
+          {/* --------- Right Side --------- */}
+          <div className="flex flex-col">
+            <p className="font-semibold text-gray-600 mb-2">
+              Background Remove
+            </p>
+            <div className="rounded-md border border-gray-300 h-full relative bg-layer overflow-hidden">
+              <img src={assets.image_wo_bg} alt="" />
+              {/* <div className="absolute right-1/2 bottom-1/2 transform translate-x-1/2 translate-y-1/2">
+                <div className="border-4 border-[#04cf9c] rounded-full h-12 w-12 border-t-transparent animate-spin"></div>
+              </div> */}
+            </div>
+          </div>
+        </div>
+
+        {/* ---------- Buttons ---------------  */}
+        <div className="flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6">
+          <button className="px-8 py-3 text-[#04cf9c] border border-[#04cf9c] rounded-full hover:bg-[#04cf9c] hover:text-white transition-all duration-300 cursor-pointer">Try another image</button>
+          <a className="text-white px-8 py-3 rounded-full cursor-pointer bg-linear-to-r from-[#04cf9c] to-[#1c2c48] hover:bg-linear-to-r hover:from-[#1c1f48] hover:to-[#04cf9c]" href="">Download image</a>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Result
+export default Result;

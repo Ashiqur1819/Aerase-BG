@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 function Footer() {
   return (
-    <div className='flex items-center justify-between gap-4 px-4 lg:px-44 py-3'>
+    <div className='flex items-center justify-between gap-4 px-4 lg:px-60 py-3'>
     <img width={170} src={assets.logo} alt="" />
     <p className='flex-1 border-l border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden'>Copyright @Ashiqur Rahman | All Rights Reserved.</p>
     <div className='flex gap-1'>
