@@ -14,6 +14,7 @@ import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import credit_icon from './credit_icon.png'
 import hero_bg from './hero_bg.png'
+import favicon from './favicon.png'
 
 export const assets = {
     logo,
@@ -29,7 +30,8 @@ export const assets = {
     twitter_icon,
     upload_btn_icon,
     credit_icon,
-    hero_bg
+    hero_bg,
+    favicon
 }
 
 export const testimonialsData = [
