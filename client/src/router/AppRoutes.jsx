@@ -1,7 +1,7 @@
-import {Routes, Route} from "react-router-dom"
-import Home from "../pages/Home"
-import Result from "../pages/Result"
-import BuyCredit from "../pages/BuyCredit"
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Result from "../pages/Result";
+import BuyCredit from "../pages/BuyCredit";
 
 function AppRoutes() {
   return (
@@ -12,7 +12,7 @@ function AppRoutes() {
         <Route path="/buy" element={<BuyCredit />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default AppRoutes
+export default AppRoutes;

@@ -1,4 +1,3 @@
-import React from "react";
 import { assets } from "../assets/assets";
 
 function Result() {
@@ -29,8 +28,15 @@ function Result() {
 
         {/* ---------- Buttons ---------------  */}
         <div className="flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6">
-          <button className="px-8 py-3 text-[#04cf9c] border border-[#04cf9c] rounded-full hover:bg-[#04cf9c] hover:text-white transition-all duration-300 cursor-pointer">Try another image</button>
-          <a className="text-white px-8 py-3 rounded-full cursor-pointer bg-linear-to-r from-[#04cf9c] to-[#1c2c48] hover:bg-linear-to-r hover:from-[#1c1f48] hover:to-[#04cf9c]" href="">Download image</a>
+          <button className="px-8 py-3 text-[#04cf9c] border border-[#04cf9c] rounded-full hover:bg-[#04cf9c] hover:text-white transition-all duration-300 cursor-pointer">
+            Try another image
+          </button>
+          <a
+            className="text-white px-8 py-3 rounded-full cursor-pointer bg-linear-to-r from-[#04cf9c] to-[#1c2c48] hover:bg-linear-to-r hover:from-[#1c1f48] hover:to-[#04cf9c]"
+            href=""
+          >
+            Download image
+          </a>
         </div>
       </div>
     </div>
