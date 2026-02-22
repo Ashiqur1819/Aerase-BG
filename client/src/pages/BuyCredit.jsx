@@ -11,7 +11,7 @@ function BuyCredit() {
       </h1>
 
       <div className="flex flex-wrap justify-center gap-6 text-left">
-        {plans.map((item, index) => (
+        {plans.map((item, index) => ( 
           <div
             className="bg-white drop-shadow-sm rounded-lg py-12 px-8 text-gray-700 hover:scale-103 transition-all duration-500"
             key={index}
