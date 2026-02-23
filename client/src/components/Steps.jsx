@@ -12,8 +12,7 @@ function Steps() {
           <div>
             <p className="text-xl font-medium">Upload image</p>
             <p className="text-neutral-500 mt-1">
-              This is a demo text, will replace it later. <br /> This is a
-              demo..
+              This is a demo text, will replace it later. <br /> This is ademo..
             </p>
           </div>
         </div>
