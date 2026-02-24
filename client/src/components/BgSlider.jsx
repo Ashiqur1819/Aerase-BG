@@ -10,7 +10,7 @@ function BgSlider() {
 
   return (
     <div className="pb-10 md:py-20 mx-2">
-      {/* Title */}
+      {/* Title */} 
       <h1 className="mb-10 sm:mb-20 text-center text-2xl md:text-3xl lg:text-4xl font-bold bg-linear-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent">
         Remove background with high <br /> quality and accuracy
       </h1>
